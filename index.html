@@ -16,18 +16,18 @@
         <form action=""class="cuadrado">
             <div>
                 <label for="username">Usuario</label>
-                <input type="text" placeholder="Ingresar usuario" required> 
+                <input type="email" placeholder="Ingresar email" required> 
                 <br><br>
-                <label for="Password">Password</label>
-                <input type="password" placeholder="Ingresar contraseña" required >
+                <label for="Password">Contraseña</label>
+                <input type="password" placeholder="Ingresar contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
                 <br><br>
                 <button class="button">Log In</button>
                 <br>
             </div>
             <div>
-                <a href="">Lost your Password?</a>
+                <a href="">¿Olvido su contraseña?</a>
                 <br>
-            <a href="">Don't have An account</a>     
+            <a href="">¿No tiene una cuenta?</a>     
             </div>
           
         </form>
